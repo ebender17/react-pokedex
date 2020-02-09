@@ -1,12 +1,17 @@
 import React from "react";
 import "./App.css";
 import NavBar from "./components/NavBar";
+import Dashboard from "./components/Dashboard";
 
 function App() {
   return (
-    <React.Fragment>
+    <div className="App">
       <NavBar />
-    </React.Fragment>
+      <div className="container">
+        {" "}
+        <Dashboard />{" "}
+      </div>
+    </div>
   );
 }
 
